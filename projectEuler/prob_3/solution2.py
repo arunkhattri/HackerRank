@@ -1,6 +1,6 @@
 # Project Euler #3: Largest prime factor
 # What is the largest prime factor of a given number ?
-# NOTE: Test case#1: wrong answer
+# NOTE: working solution
 from math import ceil, sqrt
 
 def factor(n):
