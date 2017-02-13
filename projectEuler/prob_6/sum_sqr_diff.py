@@ -18,10 +18,6 @@ def diff(n):
 
 
 if __name__ == "__main__":
-    N = [3, 4, 5, 6, 7, 8, 9, 10]
-    diff_list = [diff(n) for n in N]
-    print(diff_list)
-    pattern = []
-    for i in range(len(diff_list)-1):
-        pattern.append(diff_list[i+1] - diff_list[i])
-    print(pattern)
+    N = [3, 10]
+    for n in N:
+        print(diff(n))
