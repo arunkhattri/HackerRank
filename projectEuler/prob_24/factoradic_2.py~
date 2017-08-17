@@ -1,0 +1,17 @@
+from math import factorial
+
+
+def fact_num_system(n):
+    i = 1
+    m = 1
+    factroid_list = []
+    while n > 0:
+        print("i = {}".format(i))
+        new_n = n // i
+        print("new_n = {}".format(new_n))
+        factoradic += (n % i)
+        print("factoradic = {}".format(factoradic))
+        factoradic_list.append(factoradic)
+        n = new_n
+        i += 1
+    return(factroid)
