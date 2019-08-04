@@ -1,0 +1,25 @@
+* Problem
+You are given a function . 
+$f(x) = X ^ 2$
+
+You are also given $K$ lists. The $i^{th}$ list consists of $N_i$ elements.
+
+You have to pick one element from each list so that the value from the equation
+below is maximized:
+
+$X_i$ denotes the element picked from the $i^{th}$ list . Find the maximized value
+$S_{max}$ obtained.
+
+% denotes the modulo operator.
+
+Note that you need to take exactly one element from each list, not necessarily
+the largest element. You add the squares of the chosen elements and perform the
+modulo operation. The maximum value that you can obtain, will be the answer to
+the problem.
+
+* Constraints
+
+$1 \le K \le 7$ 
+$1 \le M \le 1000$ 
+$1 \le N_i \le 7$ 
+$1 \le Magnitude of elements in list \le 10^9$ 
